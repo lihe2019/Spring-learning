@@ -14,7 +14,9 @@
 ```
 
 ## 注释说明
-@Autowired：自动装配通过类型、名字
+- @Autowired：自动装配通过类型、名字
     如果Autowired不能唯一自动装配上属性，则需要通过@Qualifier(value="xxx")
-@Resource：自动装配通过类型、名字
-@Nullable: 可以为空
+- @Resource：自动装配通过类型、名字
+- @Nullable: 可以为空
+
+- @Component 组件，放在类上一般，说明这个类被Spring管理了，就是bean
