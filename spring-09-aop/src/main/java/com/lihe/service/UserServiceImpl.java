@@ -1,10 +1,8 @@
-package org.lihe.demo2;
+package com.lihe.service;
 
-// 真实对象
-public class UserServiceImpl implements UserService {
+public class UserServiceImpl implements UserService{
     public void add() {
         System.out.println("增加了一个用户");
-
     }
 
     public void delete() {
@@ -12,12 +10,10 @@ public class UserServiceImpl implements UserService {
     }
 
     public void update() {
-        System.out.println("修改了一个用户");
+        System.out.println("更新了一个用户");
     }
 
-    public void query() {
+    public void select() {
         System.out.println("查询了一个用户");
     }
-
-    // 改动原有代码，是公司的大忌
 }
